@@ -1,0 +1,40 @@
+.contact-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    label {
+      margin-bottom: 3px;
+    }
+    input,
+    textarea {
+      border: 1px solid #bdbdbd;
+      border-radius: 3px;
+      padding: 4px 12px;
+    }
+    input {
+      height: 32px;
+    }
+  }
+  
+  button {
+    border-radius: 3px;
+    border: 1px solid #206ba5;
+    background-color: #2370ac;
+    color: #fff;
+    padding: 6px 12px;
+    width: 130px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+    }
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.3;
+    }
+  }
+  
